@@ -1,0 +1,41 @@
+# Root .gitignore
+
+# Node modules (frontend and backend)
+**/node_modules/
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+
+# Build output
+frontend/dist/
+frontend/build/
+backend/dist/
+backend/build/
+
+# Runtime files
+*.log
+*.pid
+*.seed
+*.env
+.env.* # e.g. .env.development, .env.production
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Coverage
+coverage/
+
+# Optional: If you use Mac/Linux .swp files
+*.swp
+
+
+
+
+
