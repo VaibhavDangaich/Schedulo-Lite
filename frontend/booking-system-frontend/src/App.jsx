@@ -34,7 +34,7 @@ function App() {
     <div className="w-full h-screen z-20">
       <Header />
       
-      {/* Show only when user is signed in */}
+    
       <SignedIn>
         <div className="flex justify-end p-4">
           <UserButton />
@@ -52,7 +52,7 @@ function App() {
         </div>
       </SignedIn>
 
-      {/* Show sign in/up buttons when signed out */}
+
       <SignedOut>
         <div className="flex flex-col items-center justify-center h-full">
           <h1 className="text-2xl mb-6">Please sign in to book slots</h1>
